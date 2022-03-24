@@ -1,0 +1,28 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color:rgb(44, 60, 114);
+    text-align:center;
+}
+
+.MainContainer {
+    background-color: red;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+.TopBar{
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 110px;
+    background-color: aqua;
+}
+
+.Panel {
+    margin: 5px;
+    border-radius: 10px;
+    background: #73AD21;
+    padding: 10px;
+}
