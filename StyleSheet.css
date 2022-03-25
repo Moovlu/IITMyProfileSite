@@ -52,7 +52,6 @@ body {
 /*Titles, subtitles, main text and links*/
 h2 {
     color: #aaaaaa;
-    font-weight: bold;
 }
 h3 {
     color: #aaaaaa;
@@ -61,5 +60,10 @@ p {
     color: #dddddd
 }
 a {
+    color: #00bc8c
+}
+
+details > summary {
+    cursor: pointer;
     color: #00bc8c
 }
