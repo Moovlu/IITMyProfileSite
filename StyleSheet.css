@@ -1,12 +1,21 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color:rgb(44, 60, 114);
+    background-color:rgb(39, 83, 53);
     text-align:center;
     min-width: 800px;
 }
 
+.BackFooter {
+    bottom: 0;
+    position:fixed;
+    background-color: #00bc8c;
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
 .MainContainer {
-    background-color: red;
+    background-color: rgba(24, 24, 24, 0.9);
     margin-right: auto;
     margin-left: auto;
     max-width: 1000px;
@@ -18,7 +27,8 @@ body {
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 110px;
-    background-color: aqua;
+    background-color: #242424;
+    color: #aaaaaa
 }
 
 .FooterBar{
@@ -27,25 +37,29 @@ body {
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 110px;
-    background-color: aqua;
+    background-color: #242424;
 }
 
 .Panel {
     margin: 5px;
     border-radius: 10px;
-    background: #73AD21;
+    background: #242424;
     padding: 10px;
     padding-top: 1px;
     text-align: left;
 }
 
-/*Titles, subtitles and main text*/
+/*Titles, subtitles, main text and links*/
 h2 {
-    color: brown;
+    color: #aaaaaa;
+    font-weight: bold;
 }
 h3 {
-    color: chocolate;
+    color: #aaaaaa;
 }
 p {
-    color:crimson
+    color: #dddddd
+}
+a {
+    color: #00bc8c
 }

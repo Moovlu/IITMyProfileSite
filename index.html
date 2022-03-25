@@ -6,14 +6,18 @@
     </head>
     <!-- Body of my website -->
     <body>
+
+        <!-- Back to top button -->
+        <a href="#top"><div class="BackFooter">Back to top</div></a>
+
         <div class="MainContainer">
 
             <!-- Top bar, with name and contact details -->
-            <div class="TopBar">
+            <div class="TopBar" id="top">
                 <div style="float:left; font-size: 20px">
                     <h1>Will Dash - My Profile</h1>
                 </div>
-                <div style="float:right;">
+                <div style="float:right; color:#494949">
                     <h5>Student Num</h5>
                     <h5>Student Email</h5>
                 </div>
@@ -24,13 +28,13 @@
                 <div style="float:left;">
 
                     <!-- Personal Information -->
-                    <div class="Panel" style="text-align:left; width:480px;">
+                    <div class="Panel" style="text-align:left; width:480px;" id="PersonalInfo">
                         <h2>Personal Information</h2>
                         <p>Personal information text</p>
                     </div>
 
                     <!-- Interest in IT -->
-                    <div class="Panel" style="text-align:left; width:480px; margin-top: 10px;">
+                    <div class="Panel" style="text-align:left; width:480px; margin-top: 15px;" id="Interest">
                         <h2>Interest in IT</h2>
                         <p>Interest in IT text</p>
                     </div>
@@ -45,21 +49,27 @@
 
                     <!-- Table of contents -->
                     <div class="Panel" style="text-align:left; width:200px;">
-                        <h3>Table of Contents</h3>
-                        <p>text</p>
+                        <h3 style="text-align: center;">Table of Contents</h3>
+                        <ul style="color:#00bc8c">
+                            <li><a href="#PersonalInfo">Personal Information</a></li>
+                            <li><a href="#Interest">Interest in IT</a></li>
+                            <li><a href="#Job">Ideal Job</a></li>
+                            <li><a href="#Profile">Profile</a></li>
+                            <li><a href="#Project">Project</a></li>
+                        </ul>
                     </div>
 
                 </div>
             </div>
 
             <!-- Ideal Job -->
-            <div class="Panel" style="display:inline-block; margin-top: 10px; width:730px;">
+            <div class="Panel" style="display:inline-block; margin-top: 10px; width:730px;" id="Job">
                 <h2>Ideal Job</h2>
                 <p>Ideal job text</p>
             </div>
 
             <!-- Profile-->
-            <div class="Panel" style="display:inline-block; margin-top: 10px; width:730px;">
+            <div class="Panel" style="display:inline-block; margin-top: 10px; width:730px;" id="Profile">
                 <h2>Profile</h2>
                 <img src="none"><img src="none"><img src="none">
                 <h4><a href="none">Links</a></h4>
@@ -68,7 +78,7 @@
 
             <!-- Project Section-->
             <div>
-                <div class="Panel" style="display: inline-block; margin-top: 10px; width:342px; margin-right: 10px;">
+                <div class="Panel" style="display: inline-block; margin-top: 10px; width:342px; margin-right: 10px;" id="Project">
                     
                     <h2>Project Idea</h2>
                     <h3>Overview</h3>
@@ -117,3 +127,5 @@
         </div>
     </body>
 </html>
+
+<!-- Include animal pics, more pics is better -->
